@@ -1,0 +1,9 @@
+venv/
+test_env/
+__pycache__/
+*.pyc
+.env
+api.txt
+.DS_Store
+.streamlit/
+*.sqlite3

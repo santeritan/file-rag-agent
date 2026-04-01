@@ -1,0 +1,22 @@
+{
+    "password": "admin123",
+    "model": "claude-sonnet-4-5",
+    "temperature": 0.1,
+    "top_k": 10,
+    "chunk_size": 1024,
+    "chunk_overlap": 200,
+    "system_prompt": "You are a friendly and knowledgeable assistant. Answer questions in a natural conversational way based on the information you have been given. Never mention internal document files, excerpts or page numbers. Never reference how you work or where your information comes from. Just answer the question directly and helpfully as if the knowledge is your own. Keep answers clear and easy to understand.",
+    "legal_system_prompt": "You are a knowledgeable assistant that answers questions clearly and accurately. Answer in a clear and professional way that anyone can understand. Never mention internal files or excerpts.",
+    "legal_files": [
+        {
+            "filename": "Regulation - EU - 2024_1157_EN_EUR-Lex 241121.pdf",
+            "reference_name": "EU Regulation 2024/1157",
+            "reference_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02024R1157-20250109&qid=1773755883217",
+            "disclaimer": "This information is based on EU legislation. Always consult a qualified legal professional before making compliance decisions."
+        }
+    ],
+    "bot_name": "AI Assistant",
+    "bot_welcome_message": "Hi! I am your AI assistant. Ask me anything.",
+    "bot_color": "#4a9eff",
+    "files_indexed": true
+}
